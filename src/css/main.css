@@ -87,4 +87,5 @@
 /*@import './imports/_debug';*/
 
 /* Autovend Header */
-@import './autovend/header.css'
+@import './autovend/header.css';
+@import './autovend/footer.css';
