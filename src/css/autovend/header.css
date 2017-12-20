@@ -1,0 +1,589 @@
+#DIV_35 {
+    box-sizing: border-box;
+    cursor: default;
+    height: 882px;
+    text-size-adjust: 100%;
+    width: 1680px;
+    perspective-origin: 840px 441px;
+    transform-origin: 840px 441px;
+    background: rgba(0, 0, 0, 0) none no-repeat scroll 0% 0% / auto padding-box border-box;
+    font: normal normal 400 normal 16px / 18.4px Roboto, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}/*#DIV_35*/
+
+#DIV_36 {
+    box-sizing: border-box;
+    cursor: default;
+    display: flex;
+    height: 882px;
+    min-height: 882px;
+    min-width: 320px;
+    text-size-adjust: 100%;
+    width: 1680px;
+    perspective-origin: 840px 441px;
+    transform-origin: 840px 441px;
+    background: rgba(0, 0, 0, 0) none no-repeat scroll 0% 0% / auto padding-box border-box;
+    flex-flow: column nowrap;
+    font: normal normal 400 normal 16px / 18.4px Roboto, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}/*#DIV_36*/
+
+#DIV_37 {
+    box-sizing: border-box;
+    cursor: default;
+    height: 882px;
+    min-height: 882px;
+    min-width: auto;
+    text-size-adjust: 100%;
+    width: 1680px;
+    perspective-origin: 840px 441px;
+    transform-origin: 840px 441px;
+    background: rgba(0, 0, 0, 0) none no-repeat scroll 0% 0% / auto padding-box border-box;
+    font: normal normal 400 normal 16px / 18.4px Roboto, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}/*#DIV_37*/
+
+#DIV_38 {
+    box-sizing: border-box;
+    cursor: default;
+    text-size-adjust: 100%;
+    width: 1680px;
+    perspective-origin: 840px 0px;
+    transform-origin: 840px 0px;
+    background: rgba(0, 0, 0, 0) none no-repeat scroll 0% 0% / auto padding-box border-box;
+    font: normal normal 400 normal 16px / 18.4px Roboto, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}/*#DIV_38*/
+
+#DIV_1 {
+    bottom: 803px;
+    box-shadow: rgba(0, 0, 0, 0.13) 0px 1px 5px 0px;
+    box-sizing: border-box;
+    cursor: default;
+    display: flex;
+    height: 79px;
+    left: 0px;
+    position: fixed;
+    right: 0px;
+    text-size-adjust: 100%;
+    top: 0px;
+    width: 1680px;
+    z-index: 1;
+    perspective-origin: 840px 39.5px;
+    transform-origin: 840px 39.5px;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+    border-bottom: 1px solid rgba(151, 151, 151, 0.22);
+    font: normal normal 400 normal 16px / 18.4px Roboto, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    padding: 0px 25px;
+    transition: all 0.15s ease 0s;
+}/*#DIV_1*/
+
+#DIV_2 {
+    box-sizing: border-box;
+    cursor: default;
+    display: flex;
+    height: 78px;
+    max-width: 1536px;
+    min-height: auto;
+    min-width: auto;
+    text-size-adjust: 100%;
+    width: 1536px;
+    perspective-origin: 768px 39px;
+    transform-origin: 768px 39px;
+    background: rgba(0, 0, 0, 0) none no-repeat scroll 0% 0% / auto padding-box border-box;
+    font: normal normal 400 normal 16px / 18.4px Roboto, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    margin: 0px 47px;
+}/*#DIV_2*/
+
+#DIV_3 {
+    box-sizing: border-box;
+    cursor: default;
+    display: flex;
+    height: 78px;
+    min-height: auto;
+    min-width: auto;
+    text-size-adjust: 100%;
+    width: 113px;
+    align-items: center;
+    perspective-origin: 56.5px 39px;
+    transform-origin: 56.5px 39px;
+    background: rgba(0, 0, 0, 0) none no-repeat scroll 0% 0% / auto padding-box border-box;
+    flex: 0 0 auto;
+    font: normal normal 400 normal 16px / 18.4px Roboto, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}/*#DIV_3*/
+
+#A_4 {
+    box-sizing: border-box;
+    display: block;
+    height: 20px;
+    min-height: auto;
+    min-width: auto;
+    text-size-adjust: 100%;
+    touch-action: manipulation;
+    width: 113px;
+    perspective-origin: 56.5px 10px;
+    transform-origin: 56.5px 10px;
+    background: rgba(0, 0, 0, 0) none no-repeat scroll 0% 0% / auto padding-box border-box;
+    font: normal normal 400 normal 16px / 18.4px Roboto, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}/*#A_4*/
+
+#svg_5 {
+    box-sizing: border-box;
+    color: rgb(0, 0, 238);
+    height: 20px;
+    text-decoration: none solid rgb(0, 0, 238);
+    text-size-adjust: 100%;
+    vertical-align: middle;
+    width: 113px;
+    column-rule-color: rgb(0, 0, 238);
+    perspective-origin: 56.5px 10px;
+    transform-origin: 56.5px 10px;
+    fill: rgb(0, 0, 238);
+    caret-color: rgb(0, 0, 238);
+    background: rgba(0, 0, 0, 0) none no-repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(0, 0, 238);
+    font: normal normal 400 normal 16px / 18.4px Roboto, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    outline: rgb(0, 0, 238) none 0px;
+    overflow: hidden;
+}/*#svg_5*/
+
+#title_6 {
+    box-sizing: border-box;
+    color: rgb(0, 0, 238);
+    display: inline;
+    text-decoration: none solid rgb(0, 0, 238);
+    text-size-adjust: 100%;
+    column-rule-color: rgb(0, 0, 238);
+    transform-origin: 0px 0px;
+    fill: rgb(0, 0, 238);
+    caret-color: rgb(0, 0, 238);
+    background: rgba(0, 0, 0, 0) none no-repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(0, 0, 238);
+    font: normal normal 400 normal 16px / 18.4px Roboto, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    outline: rgb(0, 0, 238) none 0px;
+}/*#title_6*/
+
+#defs_7 {
+    box-sizing: border-box;
+    color: rgb(0, 0, 238);
+    text-decoration: none solid rgb(0, 0, 238);
+    text-size-adjust: 100%;
+    column-rule-color: rgb(0, 0, 238);
+    fill: rgb(0, 0, 238);
+    caret-color: rgb(0, 0, 238);
+    background: rgba(0, 0, 0, 0) none no-repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(0, 0, 238);
+    font: normal normal 400 normal 16px / 18.4px Roboto, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    outline: rgb(0, 0, 238) none 0px;
+}/*#defs_7*/
+
+#path_8 {
+    box-sizing: border-box;
+    color: rgb(0, 0, 238);
+    text-decoration: none solid rgb(0, 0, 238);
+    text-size-adjust: 100%;
+    column-rule-color: rgb(0, 0, 238);
+    fill: rgb(0, 0, 238);
+    d: path('M 14.37 14.783 H 0.163 V 0.072 h 14.209 Z');
+    caret-color: rgb(0, 0, 238);
+    background: rgba(0, 0, 0, 0) none no-repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(0, 0, 238);
+    font: normal normal 400 normal 16px / 18.4px Roboto, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    outline: rgb(0, 0, 238) none 0px;
+}/*#path_8*/
+
+#path_9 {
+    box-sizing: border-box;
+    color: rgb(0, 0, 238);
+    text-decoration: none solid rgb(0, 0, 238);
+    text-size-adjust: 100%;
+    column-rule-color: rgb(0, 0, 238);
+    fill: rgb(0, 0, 238);
+    d: path('M 14.35 0.072 V 20 H 0.003 V 0.072 H 14.35 Z');
+    caret-color: rgb(0, 0, 238);
+    background: rgba(0, 0, 0, 0) none no-repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(0, 0, 238);
+    font: normal normal 400 normal 16px / 18.4px Roboto, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    outline: rgb(0, 0, 238) none 0px;
+}/*#path_9*/
+
+#g_10 {
+    box-sizing: border-box;
+    color: rgb(0, 0, 238);
+    text-decoration: none solid rgb(0, 0, 238);
+    text-size-adjust: 100%;
+    column-rule-color: rgb(0, 0, 238);
+    fill: none;
+    fill-rule: evenodd;
+    caret-color: rgb(0, 0, 238);
+    background: rgba(0, 0, 0, 0) none no-repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(0, 0, 238);
+    font: normal normal 400 normal 16px / 18.4px Roboto, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    outline: rgb(0, 0, 238) none 0px;
+}/*#g_10*/
+
+#path_11 {
+    box-sizing: border-box;
+    color: rgb(0, 0, 238);
+    text-decoration: none solid rgb(0, 0, 238);
+    text-size-adjust: 100%;
+    column-rule-color: rgb(0, 0, 238);
+    fill: rgb(132, 165, 188);
+    fill-rule: evenodd;
+    d: path('M 2.061 12.5 v 0.16 c 0 2.148 1.054 3.766 3.163 4.854 c 0.668 0.251 1.266 0.376 1.793 0.376 h 0.41 c 1.75 0 3.195 -0.896 4.334 -2.688 c 0.414 -0.847 0.621 -1.656 0.621 -2.427 v -0.217 c 0 -2.071 -0.997 -3.656 -2.993 -4.754 a 5.15 5.15 0 0 0 -2.16 -0.477 h -0.057 c -2.127 0 -3.727 1.132 -4.8 3.396 c -0.207 0.703 -0.31 1.296 -0.31 1.777 m 5.167 -7.283 c 2.73 0 4.89 1.368 6.48 4.104 c 0.49 1.108 0.735 2.26 0.735 3.454 v 6.257 c 0 0.53 -0.335 0.852 -1.003 0.968 h -0.056 c -0.452 0 -0.787 -0.27 -1.003 -0.81 v -0.057 l 0.057 -1.344 v -0.058 C 10.886 19.244 9.215 20 7.427 20 h -0.41 C 4.57 20 2.527 18.743 0.89 16.228 C 0.296 15.015 0 13.791 0 12.558 c 0 -2.745 1.318 -4.922 3.953 -6.531 c 1.12 -0.54 2.212 -0.81 3.276 -0.81 M 16.316 5.217 c 0.645 0.173 0.968 0.48 0.968 0.922 v 5.772 c 0 2.466 0.663 4.121 1.99 4.965 c 0.846 0.682 1.787 1.022 2.823 1.022 c 1.982 0 3.477 -1.08 4.486 -3.238 c 0.209 -0.7 0.313 -1.401 0.313 -2.102 V 6.297 c 0.137 -0.72 0.478 -1.08 1.023 -1.08 c 0.646 0.154 0.968 0.495 0.968 1.022 v 12.84 c 0 0.48 -0.322 0.787 -0.968 0.921 h -0.054 c -0.646 -0.125 -0.969 -0.465 -0.969 -1.022 v -1.022 h -0.054 C 25.424 19.319 23.892 20 22.247 20 h -0.355 c -2.118 0 -3.958 -1.099 -5.522 -3.296 c -0.718 -1.18 -1.077 -2.634 -1.077 -4.362 V 6.455 c 0.082 -0.825 0.423 -1.238 1.023 -1.238 M 34.131 0.87 h 0.193 c 0.607 0.128 0.91 0.399 0.91 0.812 v 4.541 h 2.083 l 0.455 -0.055 c 0.47 0 0.786 0.34 0.952 1.019 c 0 0.459 -0.285 0.793 -0.855 1.004 l -0.759 -0.055 h -1.875 v 7.418 c 0 1.294 0.422 2.088 1.268 2.381 l 1.159 0.097 h 0.565 c 0.442 0 0.727 0.321 0.856 0.963 v 0.041 c -0.11 0.643 -0.433 0.964 -0.966 0.964 h -1.062 c -1.61 0 -2.805 -0.876 -3.586 -2.629 c -0.138 -0.43 -0.207 -0.936 -0.207 -1.514 v -7.72 h -1.007 l -0.814 0.054 c -0.57 -0.201 -0.855 -0.536 -0.855 -1.004 c 0.11 -0.642 0.414 -0.964 0.91 -0.964 v -0.055 l 0.511 0.055 h 1.255 V 1.984 c 0.083 -0.743 0.373 -1.114 0.87 -1.114 M 41.197 12.449 v 0.261 c 0 1.975 0.931 3.505 2.795 4.59 c 0.671 0.357 1.39 0.536 2.156 0.536 h 0.313 c 1.995 0 3.523 -1.06 4.582 -3.18 a 5.611 5.611 0 0 0 0.37 -1.946 v -0.261 c 0 -1.646 -0.739 -3.03 -2.214 -4.153 c -0.861 -0.61 -1.845 -0.915 -2.951 -0.915 c -2.185 0 -3.784 1.167 -4.796 3.5 c -0.17 0.571 -0.255 1.094 -0.255 1.568 m 5.108 -7.232 c 1.863 0 3.551 0.722 5.065 2.164 c 1.437 1.55 2.156 3.292 2.156 5.228 c 0 2.769 -1.281 4.947 -3.845 6.534 c -1.106 0.572 -2.18 0.857 -3.22 0.857 h -0.426 c -1.94 0 -3.746 -0.934 -5.42 -2.803 c -1.022 -1.48 -1.532 -3.01 -1.532 -4.588 c 0 -2.401 1.035 -4.415 3.107 -6.041 c 1.324 -0.9 2.696 -1.35 4.115 -1.35');
+    caret-color: rgb(0, 0, 238);
+    background: rgba(0, 0, 0, 0) none no-repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(0, 0, 238);
+    font: normal normal 400 normal 16px / 18.4px Roboto, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    outline: rgb(0, 0, 238) none 0px;
+}/*#path_11*/
+
+#path_12 {
+    box-sizing: border-box;
+    color: rgb(0, 0, 238);
+    text-decoration: none solid rgb(0, 0, 238);
+    text-size-adjust: 100%;
+    column-rule-color: rgb(0, 0, 238);
+    fill: rgb(20, 61, 87);
+    fill-rule: evenodd;
+    d: path('M 54.455 5.217 h 0.096 c 0.537 0 1.002 0.594 1.394 1.782 l 4.399 9.496 C 63.532 9.389 65.226 5.72 65.426 5.49 c 0.237 -0.181 0.46 -0.273 0.67 -0.273 c 0.683 0.135 1.024 0.474 1.024 1.02 v 0.058 c 0 0.182 -0.75 1.91 -2.254 5.186 l -3.798 8.188 c -0.273 0.22 -0.515 0.331 -0.724 0.331 h -0.041 c -0.583 0 -1.098 -0.685 -1.544 -2.054 c -3.306 -7.107 -5.05 -10.938 -5.233 -11.493 v -0.259 c 0.119 -0.65 0.428 -0.977 0.93 -0.977');
+    caret-color: rgb(0, 0, 238);
+    background: rgba(0, 0, 0, 0) none no-repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(0, 0, 238);
+    font: normal normal 400 normal 16px / 18.4px Roboto, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    outline: rgb(0, 0, 238) none 0px;
+}/*#path_12*/
+
+#g_13 {
+    box-sizing: border-box;
+    color: rgb(0, 0, 238);
+    text-decoration: none solid rgb(0, 0, 238);
+    text-size-adjust: 100%;
+    column-rule-color: rgb(0, 0, 238);
+    transform: matrix(1, 0, 0, 1, 67.97, 5.217);
+    fill: none;
+    fill-rule: evenodd;
+    caret-color: rgb(0, 0, 238);
+    background: rgba(0, 0, 0, 0) none no-repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(0, 0, 238);
+    font: normal normal 400 normal 16px / 18.4px Roboto, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    outline: rgb(0, 0, 238) none 0px;
+}/*#g_13*/
+
+#mask_14, #use_15, #mask_19 {
+    box-sizing: border-box;
+    color: rgb(0, 0, 238);
+    text-decoration: none solid rgb(0, 0, 238);
+    text-size-adjust: 100%;
+    column-rule-color: rgb(0, 0, 238);
+    fill: rgb(255, 255, 255);
+    fill-rule: evenodd;
+    caret-color: rgb(0, 0, 238);
+    background: rgba(0, 0, 0, 0) none no-repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(0, 0, 238);
+    font: normal normal 400 normal 16px / 18.4px Roboto, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    outline: rgb(0, 0, 238) none 0px;
+}/*#mask_14, #use_15, #mask_19*/
+
+#path_16 {
+    box-sizing: border-box;
+    color: rgb(0, 0, 238);
+    text-decoration: none solid rgb(0, 0, 238);
+    text-size-adjust: 100%;
+    column-rule-color: rgb(0, 0, 238);
+    mask: url("#b");
+    fill: rgb(20, 61, 87);
+    fill-rule: evenodd;
+    d: path('M 2.283 6.788 h 9.967 c 0 -0.736 -0.416 -1.688 -1.248 -2.856 c -1.137 -1.11 -2.26 -1.665 -3.368 -1.665 h -0.568 c -1.664 0 -3.032 0.843 -4.104 2.526 c -0.37 0.67 -0.596 1.335 -0.679 1.995 M 7.218 0.072 c 2.735 0 4.86 1.344 6.376 4.032 c 0.518 1.053 0.777 2.196 0.777 3.43 v 0.273 c -0.12 0.718 -0.449 1.077 -0.984 1.077 H 2.449 c 0.407 1.426 1.285 2.516 2.634 3.272 c 0.795 0.316 1.539 0.474 2.232 0.474 c 0.804 0 1.723 -0.268 2.759 -0.804 h 0.304 c 0.62 0.124 0.929 0.45 0.929 0.976 v 0.158 c 0 0.88 -1.243 1.488 -3.729 1.823 h -0.36 c -2.55 0 -4.593 -1.235 -6.127 -3.703 a 7.707 7.707 0 0 1 -0.929 -3.66 c 0 -2.689 1.23 -4.832 3.688 -6.43 C 5.04 0.378 6.164 0.072 7.218 0.072');
+    caret-color: rgb(0, 0, 238);
+    background: rgba(0, 0, 0, 0) none no-repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(0, 0, 238);
+    font: normal normal 400 normal 16px / 18.4px Roboto, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    outline: rgb(0, 0, 238) none 0px;
+}/*#path_16*/
+
+#path_17 {
+    box-sizing: border-box;
+    color: rgb(0, 0, 238);
+    text-decoration: none solid rgb(0, 0, 238);
+    text-size-adjust: 100%;
+    column-rule-color: rgb(0, 0, 238);
+    fill: rgb(20, 61, 87);
+    fill-rule: evenodd;
+    d: path('M 84.29 5.217 c 0.648 0.174 0.972 0.482 0.972 0.925 v 1.185 c 1.478 -1.406 3.094 -2.11 4.846 -2.11 c 1.926 0 3.633 0.848 5.12 2.544 c 1.086 1.416 1.63 2.904 1.63 4.465 v 6.864 c 0 0.472 -0.325 0.775 -0.973 0.91 h -0.054 c -0.649 -0.125 -0.972 -0.467 -0.972 -1.026 v -6.04 c 0 -2.707 -1.105 -4.49 -3.313 -5.347 c -0.539 -0.144 -1.018 -0.217 -1.438 -0.217 h -0.15 c -1.853 0 -3.286 1.012 -4.299 3.035 c -0.265 0.617 -0.397 1.604 -0.397 2.962 v 5.665 c 0 0.53 -0.324 0.852 -0.972 0.968 h -0.055 c -0.52 0 -0.844 -0.361 -0.972 -1.084 V 6.46 c 0.082 -0.828 0.425 -1.243 1.027 -1.243');
+    caret-color: rgb(0, 0, 238);
+    background: rgba(0, 0, 0, 0) none no-repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(0, 0, 238);
+    font: normal normal 400 normal 16px / 18.4px Roboto, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    outline: rgb(0, 0, 238) none 0px;
+}/*#path_17*/
+
+#g_18 {
+    box-sizing: border-box;
+    color: rgb(0, 0, 238);
+    text-decoration: none solid rgb(0, 0, 238);
+    text-size-adjust: 100%;
+    column-rule-color: rgb(0, 0, 238);
+    transform: matrix(1, 0, 0, 1, 98.556, 0);
+    fill: none;
+    fill-rule: evenodd;
+    caret-color: rgb(0, 0, 238);
+    background: rgba(0, 0, 0, 0) none no-repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(0, 0, 238);
+    font: normal normal 400 normal 16px / 18.4px Roboto, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    outline: rgb(0, 0, 238) none 0px;
+}/*#g_18*/
+
+#use_20 {
+    box-sizing: border-box;
+    color: rgb(0, 0, 238);
+    text-decoration: none solid rgb(0, 0, 238);
+    text-size-adjust: 100%;
+    column-rule-color: rgb(0, 0, 238);
+    fill: rgb(255, 255, 255);
+    fill-rule: evenodd;
+    caret-color: rgb(0, 0, 238);
+    background: rgba(0, 0, 0, 0) none no-repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(0, 0, 238);
+    font: normal normal 400 normal 16px / 18.4px Roboto, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    outline: rgb(0, 0, 238) none 0px;
+}/*#use_20*/
+
+#path_21 {
+    box-sizing: border-box;
+    color: rgb(0, 0, 238);
+    text-decoration: none solid rgb(0, 0, 238);
+    text-size-adjust: 100%;
+    column-rule-color: rgb(0, 0, 238);
+    mask: url("#d");
+    fill: rgb(20, 61, 87);
+    fill-rule: evenodd;
+    d: path('M 2.04 12.638 v 0.265 c 0 2.143 1.119 3.739 3.355 4.787 c 0.6 0.176 1.142 0.264 1.622 0.264 h 0.319 c 2.08 0 3.65 -1.122 4.713 -3.367 c 0.176 -0.677 0.263 -1.202 0.263 -1.573 v -0.32 c 0 -2.134 -1.136 -3.73 -3.41 -4.787 c -0.693 -0.176 -1.233 -0.264 -1.621 -0.264 h -0.208 c -2.08 0 -3.65 1.104 -4.713 3.312 c -0.213 0.621 -0.32 1.182 -0.32 1.683 M 13.145 0.072 h 0.208 c 0.628 0.13 0.943 0.413 0.943 0.849 v 10.41 l 0.055 1.78 c 0 1.374 -0.56 2.812 -1.677 4.315 C 11.093 19.142 9.313 20 7.336 20 H 6.92 c -1.931 0 -3.729 -0.91 -5.392 -2.728 C 0.51 15.825 0.003 14.332 0.003 12.792 c 0 -2.33 1.03 -4.291 3.091 -5.887 c 1.312 -0.872 2.676 -1.308 4.09 -1.308 c 1.82 0 3.53 0.719 5.128 2.157 V 1.812 l -0.055 -0.835 c 0.194 -0.603 0.49 -0.905 0.887 -0.905');
+    caret-color: rgb(0, 0, 238);
+    background: rgba(0, 0, 0, 0) none no-repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(0, 0, 238);
+    font: normal normal 400 normal 16px / 18.4px Roboto, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    outline: rgb(0, 0, 238) none 0px;
+}/*#path_21*/
+
+#DIV_22 {
+    box-sizing: border-box;
+    cursor: default;
+    height: 78px;
+    min-height: auto;
+    min-width: auto;
+    text-size-adjust: 100%;
+    width: 968.984px;
+    perspective-origin: 484.484px 39px;
+    transform-origin: 484.484px 39px;
+    background: rgba(0, 0, 0, 0) none no-repeat scroll 0% 0% / auto padding-box border-box;
+    flex: 2 1 auto;
+    font: normal normal 400 normal 16px / 18.4px Roboto, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}/*#DIV_22*/
+
+#DIV_23 {
+    box-sizing: border-box;
+    cursor: default;
+    display: flex;
+    height: 78px;
+    min-height: auto;
+    min-width: auto;
+    text-size-adjust: 100%;
+    width: 438.016px;
+    align-items: center;
+    perspective-origin: 219px 39px;
+    transform-origin: 219px 39px;
+    background: rgba(0, 0, 0, 0) none no-repeat scroll 0% 0% / auto padding-box border-box;
+    font: normal normal 400 normal 16px / 18.4px Roboto, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    margin: 0px 0px 0px 16px;
+}/*#DIV_23*/
+
+#DIV_24 {
+    box-sizing: border-box;
+    cursor: default;
+    display: flex;
+    height: 78px;
+    min-height: auto;
+    min-width: auto;
+    text-size-adjust: 100%;
+    width: 75.5312px;
+    justify-content: center;
+    perspective-origin: 37.7656px 39px;
+    transform-origin: 37.7656px 39px;
+    background: rgba(0, 0, 0, 0) none no-repeat scroll 0% 0% / auto padding-box border-box;
+    font: normal normal 400 normal 16px / 18.4px Roboto, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}/*#DIV_24*/
+
+#A_25 {
+    box-sizing: border-box;
+    color: rgb(113, 106, 106);
+    display: block;
+    height: 78px;
+    letter-spacing: 1.4px;
+    min-height: auto;
+    min-width: auto;
+    text-decoration: none solid rgb(113, 106, 106);
+    text-size-adjust: 100%;
+    touch-action: manipulation;
+    width: 75.5312px;
+    column-rule-color: rgb(113, 106, 106);
+    perspective-origin: 37.7656px 39px;
+    transform-origin: 37.7656px 39px;
+    caret-color: rgb(113, 106, 106);
+    background: rgba(0, 0, 0, 0) none no-repeat scroll 0% 0% / auto padding-box border-box;
+    border-top: 0px none rgb(113, 106, 106);
+    border-right: 0px none rgb(113, 106, 106);
+    border-bottom: 2px solid rgb(132, 165, 188, 0);
+    border-left: 0px none rgb(113, 106, 106);
+    font: normal normal 300 normal 14px / 16.1px Roboto, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    outline: rgb(113, 106, 106) none 0px;
+    padding: 30px 16px;
+    transition: color 0.15s ease-in 0s;
+}/*#A_25*/
+
+.autovend_nav:hover {
+    border-bottom: 2px solid #84a5bc;    
+}
+.autovend_menu_selcted{
+    border-bottom: 2px solid #84a5bc !important;    
+}
+.autovend_nav {
+    box-sizing: border-box;
+    cursor: default;
+    display: flex;
+    height: 78px;
+    min-height: auto;
+    min-width: auto;
+    text-size-adjust: 100%;
+    width: 116.516px;
+    justify-content: center;
+    perspective-origin: 58.25px 39px;
+    transform-origin: 58.25px 39px;
+    background: rgba(0, 0, 0, 0) none no-repeat scroll 0% 0% / auto padding-box border-box;
+    font: normal normal 400 normal 16px / 18.4px Roboto, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}/*#DIV_26*/
+
+
+#A_27 {
+    box-sizing: border-box;
+    color: rgb(113, 106, 106);
+    display: block;
+    height: 78px;
+    letter-spacing: 1.4px;
+    min-height: auto;
+    min-width: auto;
+    text-decoration: none solid rgb(113, 106, 106);
+    text-size-adjust: 100%;
+    touch-action: manipulation;
+    width: 116.516px;
+    column-rule-color: rgb(113, 106, 106);
+    perspective-origin: 58.25px 39px;
+    transform-origin: 58.25px 39px;
+    caret-color: rgb(113, 106, 106);
+    background: rgba(0, 0, 0, 0) none no-repeat scroll 0% 0% / auto padding-box border-box;
+    border-top: 0px none rgb(113, 106, 106);
+    border-right: 0px none rgb(113, 106, 106);
+    border-bottom: 2px solid rgba(132, 165, 188, 0);
+    border-left: 0px none rgb(113, 106, 106);
+    font: normal normal 300 normal 14px / 16.1px Roboto, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    outline: rgb(113, 106, 106) none 0px;
+    padding: 30px 16px;
+    transition: color 0.15s ease-in 0s;
+}/*#A_27*/
+
+
+
+#A_29 {
+    box-sizing: border-box;
+    color: rgb(113, 106, 106);
+    display: block;
+    height: 78px;
+    letter-spacing: 1.4px;
+    min-height: auto;
+    min-width: auto;
+    text-decoration: none solid rgb(113, 106, 106);
+    text-size-adjust: 100%;
+    touch-action: manipulation;
+    width: 61.0625px;
+    column-rule-color: rgb(113, 106, 106);
+    perspective-origin: 30.5312px 39px;
+    transform-origin: 30.5312px 39px;
+    caret-color: rgb(113, 106, 106);
+    background: rgba(0, 0, 0, 0) none no-repeat scroll 0% 0% / auto padding-box border-box;
+    border-top: 0px none rgb(113, 106, 106);
+    border-right: 0px none rgb(113, 106, 106);
+    border-bottom: 2px solid rgba(132, 165, 188, 0);
+    border-left: 0px none rgb(113, 106, 106);
+    font: normal normal 300 normal 14px / 16.1px Roboto, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    outline: rgb(113, 106, 106) none 0px;
+    padding: 30px 16px;
+    transition: color 0.15s ease-in 0s;
+}/*#A_29*/
+
+
+#A_31 {
+    box-sizing: border-box;
+    color: rgb(113, 106, 106);
+    display: block;
+    height: 78px;
+    letter-spacing: 1.4px;
+    min-height: auto;
+    min-width: auto;
+    text-decoration: none solid rgb(113, 106, 106);
+    text-size-adjust: 100%;
+    touch-action: manipulation;
+    width: 90.1406px;
+    column-rule-color: rgb(113, 106, 106);
+    perspective-origin: 45.0625px 39px;
+    transform-origin: 45.0625px 39px;
+    caret-color: rgb(113, 106, 106);
+    background: rgba(0, 0, 0, 0) none no-repeat scroll 0% 0% / auto padding-box border-box;
+    border-top: 0px none rgb(113, 106, 106);
+    border-right: 0px none rgb(113, 106, 106);
+    border-bottom: 2px solid rgba(132, 165, 188, 0);
+    border-left: 0px none rgb(113, 106, 106);
+    font: normal normal 300 normal 14px / 16.1px Roboto, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    outline: rgb(113, 106, 106) none 0px;
+    padding: 30px 16px;
+    transition: color 0.15s ease-in 0s;
+}/*#A_31*/
+
+#DIV_32 {
+    box-sizing: border-box;
+    cursor: default;
+    height: 30px;
+    min-height: auto;
+    min-width: auto;
+    text-size-adjust: 100%;
+    width: 1px;
+    perspective-origin: 0.5px 15px;
+    transform-origin: 0.5px 15px;
+    background: rgb(232, 232, 232) none no-repeat scroll 0% 0% / auto padding-box border-box;
+    font: normal normal 400 normal 16px / 18.4px Roboto, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}/*#DIV_32*/
+
+
+
+#A_34 {
+    box-sizing: border-box;
+    color: rgb(113, 106, 106);
+    display: block;
+    height: 78px;
+    letter-spacing: 1.4px;
+    min-height: auto;
+    min-width: auto;
+    text-decoration: none solid rgb(113, 106, 106);
+    text-size-adjust: 100%;
+    touch-action: manipulation;
+    width: 93.7656px;
+    column-rule-color: rgb(113, 106, 106);
+    perspective-origin: 46.875px 39px;
+    transform-origin: 46.875px 39px;
+    caret-color: rgb(113, 106, 106);
+    background: rgba(0, 0, 0, 0) none no-repeat scroll 0% 0% / auto padding-box border-box;
+    border-top: 0px none rgb(113, 106, 106);
+    border-right: 0px none rgb(113, 106, 106);
+    border-bottom: 2px solid rgba(132, 165, 188, 0);
+    border-left: 0px none rgb(113, 106, 106);
+    font: normal normal 300 normal 14px / 16.1px Roboto, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    outline: rgb(113, 106, 106) none 0px;
+    padding: 30px 16px;
+    transition: color 0.15s ease-in 0s;
+}/*#A_34*/
+

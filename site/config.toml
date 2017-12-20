@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Homepage"
+title = "Autovend Blog"
 [outputs]
   home = ["HTML", "JSON"]
   page = ["HTML", "JSON"]
