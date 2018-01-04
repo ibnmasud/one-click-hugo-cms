@@ -12,11 +12,12 @@
       {{ end }}
   </ul>
 </div>
-{{ if (isset .Paginator "HasPrev") }}
-{{ .Paginator.Prev }}
+
+{{ if .Paginator.HasPrev }}
+<a class="prev page-numbers" href="/{{ .Paginator.Prev.URL }}"><span class="glyphicon  glyphicon-chevron-left"></span></a>
 {{ end }}
-{{ if (isset .Paginator "HasNext") }}
-{{ .Paginator.Next }}
+{{ if .Paginator.HasNext }}
+<a class="next page-numbers" href="/{{ .Paginator.Next.URL }}"><span class="glyphicon  glyphicon-chevron-right"></span></a>
 {{ end }}
 
 {{ template "_internal/pagination.html" . }}
