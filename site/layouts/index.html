@@ -12,10 +12,10 @@
       {{ end }}
   </ul>
 </div>
-{{ if (isset .Paginator.HasPrev) }}
+{{ if (isset .Paginator "HasPrev") }}
 {{ .Paginator.Prev }}
 {{ end }}
-{{ if (isset .Paginator.HasNext) }}
+{{ if (isset .Paginator "HasNext") }}
 {{ .Paginator.Next }}
 {{ end }}
 
