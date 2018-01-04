@@ -5,8 +5,7 @@
 
 <div class="mw7 center">
   <ul class="flex-ns flex-wrap mhn1-ns pa3">
-      {{ $paginator := .Paginator (sort .Pages "Title" ) 2}}
-      {{ range $paginator.Pages }}
+      {{ range sort (.Paginator 2).Pages ".Title" }}
           <div class="w-50-ns ph1-ns flex">
             {{ .Render "li"}}
           </div>
