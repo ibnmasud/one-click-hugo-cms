@@ -14,10 +14,10 @@
 </div>
 
 {{ if .Paginator.HasPrev }}
-<a class="prev page-numbers" href="/{{ .Paginator.Prev.URL }}"><span class="glyphicon  glyphicon-chevron-left"></span></a>
+<a class="prev page-numbers" href="{{ .Paginator.Prev.URL }}">Previous</a>
 {{ end }}
 {{ if .Paginator.HasNext }}
-<a class="next page-numbers" href="/{{ .Paginator.Next.URL }}"><span class="glyphicon  glyphicon-chevron-right"></span></a>
+<a class="next page-numbers" href="{{ .Paginator.Next.URL }}">Next</a>
 {{ end }}
 
 {{ template "_internal/pagination.html" . }}
