@@ -12,5 +12,12 @@
       {{ end }}
   </ul>
 </div>
+{{ if (isset .Paginator.HasPrev) }}
+{{ .Paginator.Prev }}
+{{ end }}
+{{ if (isset .Paginator.HasNext) }}
+{{ .Paginator.Next }}
+{{ end }}
+
 {{ template "_internal/pagination.html" . }}
 {{ partial "footer" . }}
