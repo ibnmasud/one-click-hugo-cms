@@ -2,6 +2,9 @@ baseurl = "/"
 languageCode = "en-us"
 title = "Autovend Blog"
 paginate = 2
+[taxonomies]
+  tag = "tags"
+  category = "categories"
 [outputs]
   home = ["HTML", "JSON"]
   page = ["HTML", "JSON"]
