@@ -1,0 +1,116 @@
+.nav_t {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0 25px 0 25px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: transparent;
+    border-bottom-color: #97979738;
+    border-bottom-style: solid;
+    border-bottom-width: 0px;
+    box-shadow: 0px;
+    z-index: 1;
+    -webkit-transition: 0.15s all ease;
+    transition: 0.15s all ease;
+}
+.lgrCxh {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+}
+.kHuImR {
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.jfSpgE {
+    -webkit-box-flex: 2;
+    -webkit-flex-grow: 2;
+    -ms-flex-positive: 2;
+    flex-grow: 2;
+}
+.esDjpl {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.menu_b {
+    color: #fff;
+    font-size: 14.5px;
+    font-weight: 500;
+    border-bottom: 2px solid #84a5bc00;
+    border-radius: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: var(--font-family);
+    
+}
+.menu_w {
+    color: rgb(113, 106, 106);
+    font-size: 14.5px;
+    font-weight: 500;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid rgba(132, 165, 188, 0);
+    border-radius: 0px;
+    font-family: var(--font-family);
+    
+}
+.hBZCxx:hover {
+    border-bottom: 2px solid #84a5bc;
+    text-decoration: none;
+}
+.hHnhSR:hover {
+    border-bottom: 2px solid #84a5bc;
+    text-decoration: none;
+}
+/* White */
+.nav_w {
+    display: flex;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    border-bottom-color: rgba(151, 151, 151, 0.22);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    box-shadow: rgba(0, 0, 0, 0.13) 0px 1px 5px;
+    z-index: 1;
+    padding: 0px 25px;
+    background: rgb(255, 255, 255);
+    transition: all 0.15s ease;
+}
+/* Blue */
+.nav_b {
+    display: flex;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    border-bottom-color: rgba(151, 151, 151, 0.22);
+    border-bottom-style: solid;
+    border-bottom-width: 0px;
+    z-index: 1;
+    padding: 0px 25px;
+    background: radial-gradient(circle at 52% 51%, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.43)), radial-gradient(circle at 50% 112%, rgb(6, 99, 146), rgb(47, 119, 169));
+    transition: all 0.15s ease;
+}

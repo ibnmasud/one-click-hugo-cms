@@ -27,8 +27,34 @@
 		<meta property="og:title" content="Kaldi | Great coffee with a conscience">
 		<meta property="og:url" content="/">
 		<meta property="og:image" content="/img/og-image.jpg">
-
+		<script
+		src="https://code.jquery.com/jquery-3.2.1.min.js"
+		integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+		crossorigin="anonymous"></script>
 		<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+		<script>
+		$(function () {
+			$(document).scroll(function () {
+				var $nav = $("#app_navigation_bar");
+				var menu = $('.esDjpl a');
+				//console.log($nav.hasClass('nav_t'))
+				console.log($(this).scrollTop() > $nav.height())
+				if($(this).scrollTop() > $nav.height()){
+					$nav.removeClass('nav_t')
+					$nav.addClass('nav_w')
+					menu.addClass('menu_w')
+					menu.removeClass('menu_b')
+					
+				}else{
+					$nav.addClass('nav_t')
+					$nav.removeClass('nav_w')
+					menu.addClass('menu_b')
+					menu.removeClass('menu_w')
+				}
+				//$nav.toggleClass('nav_w', $(this).scrollTop() > $nav.height());
+			});
+		});
+		</script>
 	</head>
 
 	<body class="sans-serif">
