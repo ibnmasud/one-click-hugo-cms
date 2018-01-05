@@ -37,11 +37,20 @@
 			$(document).scroll(function () {
 				var $nav = $(".nav");
 				var menu = $('.esDjpl a');
+				var height = $('#topBanner').height()
 				//console.log($nav.hasClass('nav_t'))
 				console.log($(this).scrollTop() > $nav.height())
 				if($nav.length > 0){
-					if($(this).scrollTop() > $nav.height()){
+					if($(this).scrollTop() > $nav.height() && $(this).scrollTop() <= height){
 						$nav.removeClass('nav_t')
+						$nav.addClass('nav_b')
+						//menu.addClass('menu_w')
+						//menu.removeClass('menu_b')
+						menu.addClass('menu_b')
+						menu.removeClass('menu_w')
+						
+					}else if($(this).scrollTop() > height){
+						$nav.removeClass('nav_b')
 						$nav.addClass('nav_w')
 						menu.addClass('menu_w')
 						menu.removeClass('menu_b')
