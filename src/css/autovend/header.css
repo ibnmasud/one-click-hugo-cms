@@ -63,7 +63,6 @@
     right: 0px;
     text-size-adjust: 100%;
     top: 0px;
-    width: 1680px;
     z-index: 1;
     perspective-origin: 840px 39.5px;
     transform-origin: 840px 39.5px;
@@ -83,7 +82,7 @@
     min-height: auto;
     min-width: auto;
     text-size-adjust: 100%;
-    width: 1536px;
+    width: 100%;
     perspective-origin: 768px 39px;
     transform-origin: 768px 39px;
     background: rgba(0, 0, 0, 0) none no-repeat scroll 0% 0% / auto padding-box border-box;
@@ -367,9 +366,7 @@
     cursor: default;
     height: 78px;
     min-height: auto;
-    min-width: auto;
     text-size-adjust: 100%;
-    width: 968.984px;
     perspective-origin: 484.484px 39px;
     transform-origin: 484.484px 39px;
     background: rgba(0, 0, 0, 0) none no-repeat scroll 0% 0% / auto padding-box border-box;
