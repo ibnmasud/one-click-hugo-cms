@@ -35,21 +35,23 @@
 		<script>
 		$(function () {
 			$(document).scroll(function () {
-				var $nav = $("#app_navigation_bar");
+				var $nav = $(".nav");
 				var menu = $('.esDjpl a');
 				//console.log($nav.hasClass('nav_t'))
 				console.log($(this).scrollTop() > $nav.height())
-				if($(this).scrollTop() > $nav.height()){
-					$nav.removeClass('nav_t')
-					$nav.addClass('nav_w')
-					menu.addClass('menu_w')
-					menu.removeClass('menu_b')
-					
-				}else{
-					$nav.addClass('nav_t')
-					$nav.removeClass('nav_w')
-					menu.addClass('menu_b')
-					menu.removeClass('menu_w')
+				if($nav.length > 0){
+					if($(this).scrollTop() > $nav.height()){
+						$nav.removeClass('nav_t')
+						$nav.addClass('nav_w')
+						menu.addClass('menu_w')
+						menu.removeClass('menu_b')
+						
+					}else{
+						$nav.addClass('nav_t')
+						$nav.removeClass('nav_w')
+						menu.addClass('menu_b')
+						menu.removeClass('menu_w')
+					}
 				}
 				//$nav.toggleClass('nav_w', $(this).scrollTop() > $nav.height());
 			});
