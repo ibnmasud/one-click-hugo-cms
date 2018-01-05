@@ -4,10 +4,8 @@
     cursor: default;
     height: 372px;
     min-height: auto;
-    min-width: auto;
     text-decoration: none solid rgb(255, 255, 255);
     text-size-adjust: 100%;
-    width: 1680px;
     column-rule-color: rgb(255, 255, 255);
     perspective-origin: 840px 186px;
     transform-origin: 840px 186px;
@@ -24,10 +22,8 @@
     color: rgb(255, 255, 255);
     cursor: default;
     height: 276px;
-    max-width: 1536px;
     text-decoration: none solid rgb(255, 255, 255);
     text-size-adjust: 100%;
-    width: 1536px;
     column-rule-color: rgb(255, 255, 255);
     perspective-origin: 768px 138px;
     transform-origin: 768px 138px;
@@ -47,7 +43,6 @@
     height: 197px;
     text-decoration: none solid rgb(255, 255, 255);
     text-size-adjust: 100%;
-    width: 1536px;
     column-rule-color: rgb(255, 255, 255);
     justify-content: space-between;
     perspective-origin: 768px 98.5px;
