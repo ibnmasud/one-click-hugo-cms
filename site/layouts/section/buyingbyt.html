@@ -2,7 +2,7 @@
 {{ partial "nav" . }}
 
 {{ partial "jumbotron" (dict "imageUrl" "/img/blog-index.jpg" "title" "Latest stories") }}
-{{ partial "blog-menu" (dict "cat" "all" "sort" "des") }}
+{{ partial "blog-menu" (dict "cat" .Params.cat "sort" .Params.sort) }}
 
 
 <div class="mw7 center">
