@@ -2,6 +2,8 @@ baseurl = "/"
 languageCode = "en-us"
 title = "Autovend Blog"
 paginate = 2
+verbose = false
+verboseLog = true
 [taxonomies]
   tag = "tags"
   category = "categories"

@@ -1,7 +1,7 @@
 ---
 title: 'On the Block: Why you should sell your car at a dealer auction'
 date: 2018-01-16T13:00:46-05:00
-categories: Selling
+category: Selling
 description: >-
   In most cases, when you trade in your car, the dealer will turn around and
   sell it to another dealer at auction. Now you can skip the middleman and sell

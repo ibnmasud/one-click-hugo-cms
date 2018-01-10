@@ -5,13 +5,15 @@
 
 <div class="mw7 center">
   <ul class="flex-ns flex-wrap mhn1-ns pa3">
-      {{ range sort (.Paginator 2).Pages ".Title" }}
-          <div class="w-50-ns ph1-ns flex">
+      {{ range (.Paginate (where .Site.Pages "Params.category" "Buying") 4).Pages }}
+      
+          <div class="w-33-ns ph1-ns flex">
             {{ .Render "li"}}
           </div>
       {{ end }}
   </ul>
 </div>
+
 
 {{ if .Paginator.HasPrev }}
 <a class="prev page-numbers" href="{{ .Paginator.Prev.URL }}">Previous</a>

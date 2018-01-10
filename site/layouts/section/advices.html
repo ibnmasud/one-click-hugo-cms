@@ -5,12 +5,21 @@
 
 <div class="mw7 center">
   <ul class="flex-ns flex-wrap mhn1-ns pa3">
-      {{ range .Data.Pages }}
+      {{ range (.Paginate (where .Site.Pages "Params.category" "Advices") 4).Pages }}
+      
           <div class="w-33-ns ph1-ns flex">
             {{ .Render "li"}}
           </div>
       {{ end }}
   </ul>
 </div>
+
+
+{{ if .Paginator.HasPrev }}
+<a class="prev page-numbers" href="{{ .Paginator.Prev.URL }}">Previous</a>
+{{ end }}
+{{ if .Paginator.HasNext }}
+<a class="next page-numbers" href="{{ .Paginator.Next.URL }}">Next</a>
+{{ end }}
 
 {{ partial "footer" . }}

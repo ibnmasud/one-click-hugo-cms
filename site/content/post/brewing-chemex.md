@@ -6,7 +6,7 @@ description: >-
   ordeal, but once you get used to the process, it becomes a soothing ritual
   that's worth the effort every time.
 image: /img/blog-index.jpg
-categories: ["Advices"]
+category: Selling
 
 ---
 
