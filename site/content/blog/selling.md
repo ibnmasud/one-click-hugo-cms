@@ -1,4 +1,4 @@
 ---
 cat: Selling
-sort: desc
+sort: asc
 ---

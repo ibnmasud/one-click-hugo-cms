@@ -1,4 +1,4 @@
 ---
-cat: Selling
+cat: blog
 sort: desc
 ---

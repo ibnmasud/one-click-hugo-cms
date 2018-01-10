@@ -2,15 +2,27 @@
 {{ partial "nav" . }}
 
 {{ partial "jumbotron" (dict "imageUrl" "/img/blog-index.jpg" "title" "Latest stories") }}
+{{ partial "blog-menu" (dict "cat" .Params.cat "sort" .Params.sort) }}
+
 
 <div class="mw7 center">
   <ul class="flex-ns flex-wrap mhn1-ns pa3">
-      {{ range (.Paginate (where .Site.Pages "Params.category" "Buying") 4).Pages }}
+    {{ if ne .Params.cat "all" }}
+      
+      {{ range sort (.Paginate (where .Site.Pages "Params.category" .Params.cat) 4).Pages "Date" .Params.sort }}
       
           <div class="w-33-ns ph1-ns flex">
             {{ .Render "li"}}
           </div>
       {{ end }}
+    {{ else }}
+      {{ range sort (.Paginate (where .Site.Pages "Type" "post") 4).Pages "Date" .Params.sort }}
+    
+        <div class="w-33-ns ph1-ns flex">
+          {{ .Render "li"}}
+        </div>
+      {{ end }}
+    {{ end }}
   </ul>
 </div>
 

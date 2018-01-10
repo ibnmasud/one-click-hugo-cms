@@ -1,4 +1,4 @@
 ---
 cat: Buying
-sort: desc
+sort: asc
 ---

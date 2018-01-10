@@ -585,3 +585,12 @@
     transition: color 0.15s ease-in 0s;
 }/*#A_34*/
 
+#filter a:hover{
+    text-decoration: none
+}
+#filter a:visited{
+    text-decoration: none
+}
+#filter a:link{
+    text-decoration: none
+}

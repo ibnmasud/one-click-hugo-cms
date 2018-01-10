@@ -1,0 +1,15 @@
+<div style="height: 61px;width: 100%;background-color: #E8E8E8;font-size: 14px;">
+        <div id="filter" class="mw7 center">
+           <div style="float: left;vertical-align: middle;text-align: center;line-height: 61px;align-content: center;">
+               <span style="font-weight: 600;">Filter by:</span>
+               <a href="{{ if ne .cat "blog" }}/blog{{ end }}"><img src="/img/{{ if ne .cat "blog" }}not{{ end }}selected-radio.svg" alt="Autovend" style="vertical-align: middle;"> <span>All Articles</span></a>
+               <a href="{{ if ne .cat "Advices" }}/advices{{ end }}"><img src="/img/{{ if ne .cat "Advices" }}not{{ end }}selected-radio.svg" alt="Autovend" style="vertical-align: middle;"> <span>Advices</span></a>
+               <a href="{{ if ne .cat "Buying" }}/buying{{ end }}"><img src="/img/{{ if ne .cat "Buying" }}not{{ end }}selected-radio.svg" alt="Autovend" style="vertical-align: middle;"> <span>Buying</span></a>
+               <a href="{{ if ne .cat "Selling" }}/selling{{ end }}"><img src="/img/{{ if ne .cat "Selling" }}not{{ end }}selected-radio.svg" alt="Autovend" style="vertical-align: middle;"> <span>Selling</span></a></div>
+           <div style="float: right;vertical-align: middle;text-align: center;line-height: 61px;align-content: center;">
+               <span style="font-weight: 600;">Sort by:</span>
+               <a href="/{{ .cat }}"><img src="/img/{{ if ne .sort "desc" }}not{{ end }}selected-radio.svg" alt="Autovend" style="vertical-align: middle;"> <span>Rescent</span></a>
+               <a href="/{{ .cat }}byt"><img src="/img/{{ if ne .sort "asc" }}not{{ end }}selected-radio.svg" alt="Autovend" style="vertical-align: middle;"> <span>Oldest</span></a>
+            </div>
+        </div>
+     </div>
