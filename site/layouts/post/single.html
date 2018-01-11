@@ -1,11 +1,47 @@
 {{ partial "head" . }}
 {{ partial "nav_w" . }}
-  <div class="mw6 center ph3 pv4" style="margin-top:79px;">
-    <h1 class="f2 lh-title b mb3">{{.Title}}</h1>
-    <div class="flex justify-between grey-3">
-      <p>{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
-      <p>Read in {{ .ReadingTime }} minutes</p>
+  <div class="mw8 center ph3 pv4" style="margin-top:79px;">
+    <h1 class="f3 lh-title b mb3">{{.Title}}</h1>
+    <div class="flex mw6 justify-between grey-3">
+        <div style="
+    width: 41%;
+    "><div style="
+        "><div style="float:left;padding: 13px;"><img style="
+        margin-right: 5px;
+        float: left;
+      " src="/img/cat.svg" alt="Making sense of the SCAA’s new Flavor Wheel"><p style="float: left" class="fpx11 mb0">{{.Params.category}}</p></div><div style="
+        float: right;
+        border-left-style: solid;
+        border-left-width: thin;
+        border-left-color: #97979731;
+        height: 36px;
+        margin: 6px;
+      width: 66%;
+      padding:9px;
+    "><img style="
+    margin-right: 5px;
+    float: left;
+    " src="/img/clock.svg" alt="Making sense of the SCAA’s new Flavor Wheel"><p style="float: left" class="fpx11 mid-gray lh-title mb2">Sat, Dec 17, 2016</p></div></div></div>
     </div>
+    <div style="float: right; min-width:40%" class="mw5 justify-between grey-3">
+        <div style="width: 100%"><h1 style="font-family: 'Fira Sans';
+        font-size: 20px;
+        font-weight: 500;
+        color: #143D57;" class="f5">Related Articles</h1>
+      </div>
+        <div style="border-top: #C1C1C1 solid 1px;
+        width: 100%;
+        border-bottom: #C1C1C1 solid 1px;">
+        {{ range first 2 (where .Site.Pages "Params.category" .Params.category) }}
+        
+            <div class="w-100-ns ph1-ns flex">
+              {{ .Render "li2"}}
+            </div>
+        {{ end }}
+          
+          
+        </div>
+      </div>
     <div class="cms mw6">
       <p>{{ .Description }}</p>
       {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
