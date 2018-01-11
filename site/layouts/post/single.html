@@ -1,6 +1,10 @@
 {{ partial "head" . }}
 {{ partial "nav_w" . }}
   <div class="mw8 center ph3 pv4" style="margin-top:79px;">
+    <a href="/blog"><img style="
+      margin-right: 5px;
+      float: left;
+      " src="/img/backfrompost.svg" alt="Blog Home"></a>
     <h1 class="f3 lh-title b mb3">{{.Title}}</h1>
     <div class="flex mw6 justify-between grey-3">
         <div style="
@@ -41,6 +45,9 @@
           
           
         </div>
+        <a href="/blog"><img style="
+          padding-top: 20px;
+          " src="/img/viewmore.svg" alt="Blog Home"></a>
       </div>
     <div class="cms mw6">
       <p>{{ .Description }}</p>
