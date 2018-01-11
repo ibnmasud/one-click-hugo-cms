@@ -41,7 +41,23 @@
 		<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="be7208b9-e253-4017-83ba-e71acb0d0751";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
 		
 		<script>
+		function stripTitle(s, n){
+			console.log('stripTitle',s, n)
+			var cut= s.indexOf(' ', n);
+			if(cut== -1) return s;
+			return s.substring(0, cut) + '...'
+		}
 		$(function () {
+			var titles = $(".stripTitle")
+			for (var a in titles){
+				if(titles[a].innerHTML)
+				titles[a].innerHTML = stripTitle(titles[a].innerHTML, 30)
+			}
+			var descs = $(".stripDesc")
+			for (var a in descs){
+				if(descs[a].innerHTML)
+				descs[a].innerHTML = stripTitle(descs[a].innerHTML, 90)
+			}
 			$(document).scroll(function () {
 				var $nav = $(".nav");
 				var menu = $('.esDjpl a');
