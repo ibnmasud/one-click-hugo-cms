@@ -1,5 +1,5 @@
 {{ partial "head" . }}
-{{ partial "nav" . }}
+{{ partial "nav"  (dict "current" "News") }}
 
 {{ partial "jumbotron" (dict "imageUrl" "/img/blog-index.jpg" "title" "Latest stories") }}
 

@@ -7,13 +7,13 @@
 		   </div>
 		   <div class="navigation__Gutter-eGGoIt jfSpgE"></div>
 		   <div class="ml3 navigation__LinksContainer-iDdTKV esDjpl">
-			  <div style="display: flex; justify-content: center;"><a class="link ph3 bg-animate tracked navlink__NavLink-jaCYin menu_w" aria-current="true" menu="[object Object]" href="/" title="About" target="" color="#fff">About</a></div>
-			  <div style="display: flex; justify-content: center;"><a class="link ph3 bg-animate tracked navlink__NavLink-jaCYin menu_w" aria-current="false" menu="[object Object]" href="/howtosell" title="How to Sell" target="" color="#fff">How to Sell</a></div>
-			  <div style="display: flex; justify-content: center;"><a class="link ph3 bg-animate tracked navlink__NavLink-jaCYin menu_w active" aria-current="false" menu="[object Object]" href="/news" title="FAQ" target="" color="#fff" style="border-bottom: 2px solid rgb(132, 165, 188);">News</a></div>
-			  <div style="display: flex; justify-content: center;"><a class="link ph3 bg-animate tracked navlink__NavLink-jaCYin menu_w" aria-current="false" menu="[object Object]" href="/faq" title="FAQ" target="" color="#fff">FAQ</a></div>
-			  <div style="display: flex; justify-content: center;"><a class="link ph3 bg-animate tracked navlink__NavLink-jaCYin menu_w" aria-current="false" menu="[object Object]" href="/contact" title="Contact" target="" color="#fff">Contact</a></div>
+			  {{ partial "navitem" (dict "type" "w" "title" "About" "href" "https://www.autovend.ca/" "current" .current ) }}
+			  {{ partial "navitem" (dict "type" "w" "title" "How to Sell" "href" "https://www.autovend.ca/howtosell/" "current" .current ) }}
+			  {{ partial "navitem" (dict "type" "w" "title" "News" "href" "/blog" "current" .current ) }}
+			  {{ partial "navitem" (dict "type" "w" "title" "FAQ" "href" "/faq" "current" .current ) }}
+			  {{ partial "navitem" (dict "type" "w" "title" "Contact" "href" "/contact" "current" .current ) }}
 			  <div style="height: 30px; width: 1px; background-color: rgb(232, 232, 232);"></div>
-			  <div style="display: flex; justify-content: center;"><a class="link ph3 bg-animate tracked navlink__NavLink-jaCYin menu_w" aria-current="false" menu="[object Object]" href="/#register" title="Register" target="" color="#fff">Register</a></div>
+			  {{ partial "navitem" (dict "type" "w" "title" "Register" "href" "https://www.autovend.ca/" "current" .current ) }}
 		   </div>
 		</div>
 	 </div>
