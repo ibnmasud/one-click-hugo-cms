@@ -1,7 +1,10 @@
 ---
 title: "Contact us"
 logo: "/img/logo.svg"
-subjects: ['Questions','Unsubscribe','Not you?']
+subjects: 
+  - name: Questions
+  - name: Unsubscribe
+  - name: Not you?
 form_subtitle: "Please fill out the form below."
 right_subtitle: "You can also contact us directly at"
 social_contact_title: Connect with us

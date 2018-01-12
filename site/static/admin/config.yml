@@ -43,8 +43,16 @@ collections: # A list of collections the CMS should be able to edit
         name: "contact"
         fields:
           - {label: Title, name: title, widget: string}
-          - {label: Logo, name: logo, widget: image}
-          - {label: Body, name: body, widget: markdown}
+          - {label: Form Subtitle, name: form_subtitle, widget: string}
+          - {label: Right Side Subtitle, name: right_subtitle, widget: string}
+          - {label: Social Contact Title, name: social_contact_title, widget: string}
+          - label: Subjects
+            name: subjects
+            widget: list
+            fields:
+              - label: Name
+                name: name
+                widget: text
           - label: Contact Entries
             name: contact_entries
             widget: list
@@ -58,6 +66,17 @@ collections: # A list of collections the CMS should be able to edit
               - label: Href
                 name: href
                 widget: text
+          - label: Social Entries
+            name: social_entries
+            widget: list
+            fields:
+              - label: URL
+                name: href
+                widget: text
+              - label: Icon
+                name: icon
+                widget: text
+              
       - file: "site/content/faq/_index.md"
         label: "FAQ"
         name: "faq"
