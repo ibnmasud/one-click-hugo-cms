@@ -1,25 +1,39 @@
 {{ partial "head" . }}
 
-{{ partial "nav" . }}
+{{ partial "nav_w" . }}
 
-<div class="ph3 bg-off-white">
-	<div class="center mw6 pv3">
+<div class="mt5 ph3 bg-off-white vh-100">
+	<div class="center mw8 pv3 tc">
 
-		<img src="{{ .Params.logo }}" alt="" class="db w4 center pv4">
-
-		{{ .Content }}
-
-		<div class="flex-ns mb3">
-	        	{{ range .Params.contact_entries }}
-				<div>
-					<h4 class="f4 b lh-title mb2 primary">{{ .heading }}</h4>
-					<p>{{ .text }}</p>
-				</div>
+		<h1 class="roboto fw8 f3">{{ .Title }}</h1>
+		{{ partial "contact-form" . }}
+		<div style="border-left: 1px solid #979797" class=" pl5 mb3 fr w-40 vh-100">
+			<h4 class="f7 b lh-title mb3 tl">{{.Params.right_subtitle}}</h4>
+				
+			{{ range .Params.contact_entries }}
+				<div class="flex">
+						<div><i class="fa fa-{{.heading}}" aria-hidden="true"></i></div>
+						<a class="no-underline roboto pl2 fpx16" href="{{.href}}">
+						   <p>{{.text}}</p>
+						</a>
+					 </div>
+				
 			{{ end }}
+			<h4 class="f7 b lh-title tl">{{.Params.social_contact_title}}</h4>
+			<div class="flex">
+			{{ range .Params.social_entries }}
+			
+				
+					<a class="pa2" href="{{.href}}">
+					   <i class="fa fa-{{.icon}}" aria-hidden="true"></i>
+					</a>
+			
+			{{ end }}
+			</div>
+			
 		</div>
 
-		{{ partial "contact-form" . }}
-
+		
 	</div>
 </div>
 

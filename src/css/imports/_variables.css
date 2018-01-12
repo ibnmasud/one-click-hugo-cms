@@ -13,7 +13,8 @@
 	/* Typography */
 	--font-family: 'Roboto',system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
 	--line-height: 1.5;
-
+	--roboto : 'Roboto';
+	--firasans: 'Fira Sans';
 	--font-size: 18px;
 	--font-size-m: 20px;
 	--font-size-l: 22px;
