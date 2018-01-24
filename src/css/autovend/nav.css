@@ -108,7 +108,7 @@
 }
 @media (min-width: 769px){
     .not-mobile{
-        display: flex;
+        display: block;
     }
 }
 
