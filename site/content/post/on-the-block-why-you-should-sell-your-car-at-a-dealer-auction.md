@@ -1,6 +1,6 @@
 ---
 title: 'On the Block: Why you should sell your car at a dealer auction'
-date: 2018-02-23T14:00:46-05:00
+date: 2018-01-01T14:00:46-05:00
 category: Selling
 description: >-
   In most cases, when you trade in your car, the dealer will turn around and
