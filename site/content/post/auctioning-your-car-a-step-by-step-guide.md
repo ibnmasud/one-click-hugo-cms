@@ -1,6 +1,6 @@
 ---
 title: 'Auctioning your car, a step-by-step guide'
-date: 2018-02-23T09:52:18-05:00
+date: 2018-01-14T09:52:18-05:00
 category: Selling
 description: >-
   With Autovend, Canadians now have the ability to sell their car directly to
