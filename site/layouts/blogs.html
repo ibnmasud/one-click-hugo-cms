@@ -6,7 +6,7 @@
 <div class="mw7 center">
   <ul class="flex-ns flex-wrap mhn1-ns pa3">
       {{ range sort (.Paginator 4).Pages ".Title" }}
-          <div style="min-height: 460px;" class="w-33-ns ph1-ns flex">
+          <div style="min-height: 460px;" class="w-100 w-33-ns w-50-m w-33-l ph1-ns flex">
             {{ .Render "li"}}
           </div>
       {{ end }}

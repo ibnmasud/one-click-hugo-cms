@@ -1,12 +1,28 @@
 <div style="height: 61px;width: 100%;background-color: #E8E8E8;font-size: 14px;">
         <div id="filter" class="mw7 center">
-           <div style="float: left;vertical-align: middle;text-align: center;line-height: 61px;align-content: center;">
+            <div class="mobile-only">
+            <div class="custom-dropdown" style="float: left;vertical-align: middle;text-align: center;line-height: 61px;align-content: center; margin-left: 40px;">
+                        <select id="filter-selection">
+                        <option {{ if eq .cat "blog" }}selected{{ end }} value="{{ if ne .cat "blog" }}/blog{{ if ne .sort "desc" }}byt{{ end }}{{ end }}">All Articles</option>
+                        <option {{ if eq .cat "Advices" }}selected{{ end }} value="{{ if ne .cat "Advices" }}/advices{{ if ne .sort "desc" }}byt{{ end }}{{ end }}">Advices</option>
+                        <option {{ if eq .cat "Buying" }}selected{{ end }} value="{{ if ne .cat "Buying" }}/buying{{ if ne .sort "desc" }}byt{{ end }}{{ end }}">Buying</option>
+                        <option {{ if eq .cat "Selling" }}selected{{ end }} value="{{ if ne .cat "Selling" }}/selling{{ if ne .sort "desc" }}byt{{ end }}{{ end }}">Selling</option>
+                        </select>
+            </div>
+            <div class="custom-dropdown" style="float: right;vertical-align: middle;text-align: center;line-height: 61px;align-content: center; margin-right: 40px;">
+                    <select class="custom-dropdown" id="sort-selection">
+                        <option {{ if eq .sort "desc" }}selected{{ end }} value="/{{ .cat }}">Rescent</option>
+                        <option {{ if eq .sort "asc" }}selected{{ end }} value="/{{ .cat }}byt">Oldest</option>
+                        </select>
+            </div>
+            </div>
+           <div class="not-mobile" style="float: left;vertical-align: middle;text-align: center;line-height: 61px;align-content: center; padding-left: 40px;">
                <span style="font-weight: 600;">Filter by:</span>
                <a href="{{ if ne .cat "blog" }}/blog{{ if ne .sort "desc" }}byt{{ end }}{{ end }}"><img src="/img/{{ if ne .cat "blog" }}not{{ end }}selected-radio.svg" alt="Autovend" style="vertical-align: middle;"> <span>All Articles</span></a>
                <a href="{{ if ne .cat "Advices" }}/advices{{ if ne .sort "desc" }}byt{{ end }}{{ end }}"><img src="/img/{{ if ne .cat "Advices" }}not{{ end }}selected-radio.svg" alt="Autovend" style="vertical-align: middle;"> <span>Advices</span></a>
                <a href="{{ if ne .cat "Buying" }}/buying{{ if ne .sort "desc" }}byt{{ end }}{{ end }}"><img src="/img/{{ if ne .cat "Buying" }}not{{ end }}selected-radio.svg" alt="Autovend" style="vertical-align: middle;"> <span>Buying</span></a>
                <a href="{{ if ne .cat "Selling" }}/selling{{ if ne .sort "desc" }}byt{{ end }}{{ end }}"><img src="/img/{{ if ne .cat "Selling" }}not{{ end }}selected-radio.svg" alt="Autovend" style="vertical-align: middle;"> <span>Selling</span></a></div>
-           <div style="float: right;vertical-align: middle;text-align: center;line-height: 61px;align-content: center;">
+           <div class="not-mobile" style="float: right;vertical-align: middle;text-align: center;line-height: 61px;align-content: center; padding-right: 40px;">
                <span style="font-weight: 600;">Sort by:</span>
                <a href="/{{ .cat }}"><img src="/img/{{ if ne .sort "desc" }}not{{ end }}selected-radio.svg" alt="Autovend" style="vertical-align: middle;"> <span>Rescent</span></a>
                <a href="/{{ .cat }}byt"><img src="/img/{{ if ne .sort "asc" }}not{{ end }}selected-radio.svg" alt="Autovend" style="vertical-align: middle;"> <span>Oldest</span></a>

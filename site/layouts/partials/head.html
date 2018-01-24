@@ -37,8 +37,10 @@
 		integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
 		crossorigin="anonymous"></script>
 		<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+		<script src="/js/react-burger-menu.js"></script>
 		<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="be7208b9-e253-4017-83ba-e71acb0d0751";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
 		<script>
+		
 		function stripTitle(s, n){
 			console.log('stripTitle',s, n)
 			var cut= s.indexOf(' ', n);
@@ -54,7 +56,28 @@
 			$(this).find('.accordion-heading').not($(e.target)).removeClass('accordion-opened');
 			//$('.accordion-heading i').toggleClass('fa-chevron-right fa-chevron-down');
 		});
+		
 		$(function () {
+			$('#filter-selection').change(function(e){
+				window.location.href = $("#filter-selection option:selected").attr('value');
+			});
+			$('#sort-selection').change(function(e){
+				window.location.href = $("#sort-selection option:selected").attr('value');
+			});
+			$('.bm-burger-button').click(function(e){
+				$('#bm-menu-wrap').toggleClass('bm-menu-wrap-open')
+				$('#bm-overlay').toggleClass('bm-overley-open')
+				$('#bm-menu-wrap').toggleClass('bm-menu-wrap-closed')
+				$('#bm-overlay').toggleClass('bm-overley-closed')
+				$('.bm-burger-button').toggleClass('hidden')
+			})
+			$('.bm-cross-button').click(function(e){
+				$('#bm-menu-wrap').toggleClass('bm-menu-wrap-open')
+				$('#bm-overlay').toggleClass('bm-overley-open')
+				$('#bm-menu-wrap').toggleClass('bm-menu-wrap-closed')
+				$('#bm-overlay').toggleClass('bm-overley-closed')
+				$('.bm-burger-button').toggleClass('hidden')
+			})
 			
 			var titles = $(".stripTitle")
 			for (var a in titles){
