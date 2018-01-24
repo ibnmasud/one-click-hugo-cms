@@ -1,4 +1,0 @@
----
-cat: Buying
-sort: desc
----
