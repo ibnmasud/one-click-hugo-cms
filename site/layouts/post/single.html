@@ -27,7 +27,13 @@
     float: left;
     " src="/img/clock.svg" alt="Making sense of the SCAA’s new Flavor Wheel"><p style="float: left" class="fpx11 mid-gray lh-title mb2">Sat, Dec 17, 2016</p></div></div></div>
     </div>
-    <div style="float: right; min-width:40%" class="mw5 justify-between grey-3">
+    <div class="single-page" style="display:flex;">
+    <div class="cms w-100 w-75-ns w-75-l w-100-m">
+      <p>{{ .Description }}</p>
+      {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
+      {{ .Content }}
+    </div>
+    <div id="related-articles" style="" class="w-100 w-25-ns w-25-l w-100-m justify-between grey-3">
         <div style="width: 100%"><h1 style="font-family: 'Fira Sans';
         font-size: 20px;
         font-weight: 500;
@@ -49,10 +55,6 @@
           padding-top: 20px;
           " src="/img/viewmore.svg" alt="Blog Home"></a>
       </div>
-    <div class="cms mw6">
-      <p>{{ .Description }}</p>
-      {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
-      {{ .Content }}
     </div>
   </div>
 {{ partial "footer" . }}

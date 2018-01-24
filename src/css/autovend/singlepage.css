@@ -1,0 +1,21 @@
+
+
+@media (max-width: 768px){
+    #related-articles{
+        min-width:40%;
+    }
+    .single-page{
+        flex-wrap: wrap;
+        display: flex;
+    }
+}
+@media (min-width: 769px){
+    #related-articles{
+        padding-left:40px;
+        min-width:40%
+    }
+    .single-page{
+        flex-wrap: none;
+        display: flex;
+    }
+}
