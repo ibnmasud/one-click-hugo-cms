@@ -1047,3 +1047,47 @@
     outline: rgb(206, 212, 218) none 0px;
 }/*#footer_DIV_58*/
 
+.ihTWdY {
+    font-size: 14px;
+    background-color: #143d57;
+    color: #fff;
+}
+.grjjcS {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.MWwq {
+    color: #fff;
+    font-weight: 600;
+    text-align: left;
+    text-transform: uppercase;
+}
+.bqjXfW {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.ftsgeA {
+    color: #ced4da;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    border-bottom: 2px solid #84a5bc00;
+    border-radius: 0px;
+    text-decoration: none;
+}
+.kRHtsK {
+    color: #ced4da;
+    text-decoration: none;
+    text-transform: capitalize;
+}
