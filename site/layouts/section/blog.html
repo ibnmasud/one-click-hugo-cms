@@ -11,14 +11,14 @@
       
       {{ range sort (.Paginate (where .Site.Pages "Params.category" .Params.cat) 4).Pages "Date" .Params.sort }}
       
-          <div class="w-100 w-33-ns w-50-m w-33-l ph1-ns flex">
+          <div class="w-100 w-100-s w-50-mm w-33-l ph1-ns flex">
             {{ .Render "li"}}
           </div>
       {{ end }}
     {{ else }}
       {{ range sort (.Paginate (where .Site.Pages "Type" "post") 4).Pages "Date" .Params.sort }}
       {{ if eq .Kind "page" }}
-        <div class="w-100 w-33-ns w-50-m w-33-l ph1-ns flex">
+        <div class="w-100 w-100-s w-50-mm w-33-l ph1-ns flex">
           {{ .Render "li"}}
         </div>
       {{ end }}
