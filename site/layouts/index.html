@@ -1,24 +1,2 @@
-{{ partial "head" . }}
-{{ partial "nav" (dict "current" "News") }}
+<meta http-equiv="refresh" content="0; url=/blog" />
 
-{{ partial "jumbotron" (dict "imageUrl" "/img/blog-index.jpg" "title" "Latest stories") }}
-{{ partial "blog-menu" (dict "cat" "all" "sort" "des") }}
-
-<div class="mw7 center">
-  <ul class="flex-ns flex-wrap mhn1-ns pa3">
-      {{ range sort (.Paginator 4).Pages ".Title" }}
-          <div style="min-height: 460px;" class="w-100 w-100-s w-50-mm w-33-l ph1-ns flex">
-            {{ .Render "li"}}
-          </div>
-      {{ end }}
-  </ul>
-</div>
-
-{{ if .Paginator.HasPrev }}
-<a class="prev page-numbers" href="{{ .Paginator.Prev.URL }}">Previous</a>
-{{ end }}
-{{ if .Paginator.HasNext }}
-<a class="next page-numbers" href="{{ .Paginator.Next.URL }}">Next</a>
-{{ end }}
-
-{{ partial "footer" . }}
