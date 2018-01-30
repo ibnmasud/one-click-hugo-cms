@@ -9,13 +9,13 @@ description: >-
 ---
 When you've decided to sell your car privately - to another person directly, without involving a dealership - the onus is on the seller to follow the rules, and ensure the provincial regulations are abided. Every province has their own set of rules and regulatory body which sets and enforces them, and they're all a little different. In general, though, you'll need the following: 
 
-* Vehicle inspection certificate
+* **Vehicle inspection certificate**
   * This certifies that the vehicle is roadworthy and meets provincial emissions regulations.
-* Bill of Sale
+* **Bill of Sale**
   * This confirms the sale of the vehicle, and will be the basis for any sales tax applied to the transaction.
-* Ownership transfer
+* **Ownership transfer**
   * The vehicle will formally change registration from you to the buyer.
-* History report
+* **History report**
   * Not required by all provinces, but generally recommended, a History Report will disclose any liens (money owing) against a vehicle, as well as any major accidents it's been involved in.
 
 To verify the policies in your province, you can click through the corresponding link below. 
