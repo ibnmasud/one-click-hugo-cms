@@ -6,6 +6,7 @@ description: >-
   Each province has slightly different rules around private vehicle sales. Not
   following them can result in fines or even charges, so it's a good idea to
   familiarize yourself with your province's regulations beforehand.
+image: /img/rules roadsign.jpg
 ---
 When you've decided to sell your car privately - to another person directly, without involving a dealership - the onus is on the seller to follow the rules, and ensure the provincial regulations are abided. Every province has their own set of rules and regulatory body which sets and enforces them, and they're all a little different. In general, though, you'll need the following: 
 
