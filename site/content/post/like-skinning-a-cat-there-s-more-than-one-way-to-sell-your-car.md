@@ -1,6 +1,6 @@
 ---
 title: 'Like skinning a cat, there''s more than one way to sell your car'
-date: 2018-01-14T09:17:25-05:00
+date: 2018-02-06T09:17:25-05:00
 category: Selling
 description: >-
   When it comes time to get rid of your car, you have more options than you
