@@ -1,2 +1,39 @@
-<meta http-equiv="refresh" content="0; url=/blog" />
 
+{{ partial "head" . }}
+{{ partial "nav"  (dict "current" "News") }}
+
+{{ partial "jumbotron" (dict "imageUrl" "/img/blog-index.jpg" "title" "Latest stories") }}
+{{ partial "blog-menu" (dict "cat" .Params.cat "sort" .Params.sort) }}
+
+
+<div class="mw7 center">
+  <ul class="flex-ns flex-wrap mhn1-ns pa3">
+    {{ if ne .Params.cat "blog" }}
+      
+      {{ range sort (.Paginate (where .Site.Pages "Params.category" .Params.cat) 4).Pages "Date" .Params.sort }}
+      
+          <div class="w-100 w-100-s w-50-mm w-33-l ph1-ns flex">
+            {{ .Render "li"}}
+          </div>
+      {{ end }}
+    {{ else }}
+      {{ range sort (.Paginate (where .Site.Pages "Type" "post") 4).Pages "Date" .Params.sort }}
+      {{ if eq .Kind "page" }}
+        <div class="w-100 w-100-s w-50-mm w-33-l ph1-ns flex">
+          {{ .Render "li"}}
+        </div>
+      {{ end }}
+      {{ end }}
+    {{ end }}
+  </ul>
+</div>
+
+
+{{ if .Paginator.HasPrev }}
+<a class="prev page-numbers" href="{{ .Paginator.Prev.URL }}">Previous</a>
+{{ end }}
+{{ if .Paginator.HasNext }}
+<a class="next page-numbers" href="{{ .Paginator.Next.URL }}">Next</a>
+{{ end }}
+
+{{ partial "footer" . }}
