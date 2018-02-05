@@ -1,7 +1,7 @@
 {{ partial "head" . }}
 {{ partial "nav_w"  (dict "current" "News") }}
   <div class="mw8 center ph3 pv4" style="margin-top:79px;">
-    <a style="display: flex;" href="/blog"><img style="
+    <a style="display: flex;" href="javascript:openLink('/blog','clicked','Back to News')"><img style="
       margin-right: 5px;
       float: left;
       " src="/img/backfrompost.svg" alt="Blog Home"></a>
@@ -51,7 +51,7 @@
           
           
         </div>
-        <a href="/blog"><img style="
+        <a href="javascript:openLink('/blog','clicked','View More News')"><img style="
           padding-top: 20px;
           " src="/img/viewmore.svg" alt="Blog Home"></a>
       </div>

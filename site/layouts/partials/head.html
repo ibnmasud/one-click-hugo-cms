@@ -65,13 +65,17 @@
 			$(this).find('.accordion-heading').not($(e.target)).removeClass('accordion-opened');
 			//$('.accordion-heading i').toggleClass('fa-chevron-right fa-chevron-down');
 		});
-		
+		function openLink(href, action, label){
+			window.location.href = href
+			ga('send', 'event', 'Blog', action, label);
+		}
 		$(function () {
 			$('#filter-selection').change(function(e){
-				window.location.href = $("#filter-selection option:selected").attr('value');
+				openLink($("#filter-selection option:selected").attr('value'), 'Filter',$("#filter-selection option:selected").val())
+				
 			});
 			$('#sort-selection').change(function(e){
-				window.location.href = $("#sort-selection option:selected").attr('value');
+				openLink($("#sort-selection option:selected").attr('value'), 'Sort',$("#sort-selection option:selected").val())
 			});
 			$('.bm-burger-button').click(function(e){
 				$('#bm-menu-wrap').toggleClass('bm-menu-wrap-open')

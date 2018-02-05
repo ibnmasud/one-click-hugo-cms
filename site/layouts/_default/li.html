@@ -1,4 +1,4 @@
-<a href="{{ .Permalink }}" style="box-shadow: 0 2px 6px 0 rgba(0,0,0,0.15);" class="no-underline pa3 bg-white br1 mb2 db raise w-100">
+<a href="javascript:openLink('{{ .Permalink }}', 'clicked', 'Read Post')" style="box-shadow: 0 2px 6px 0 rgba(0,0,0,0.15);" class="no-underline pa3 bg-white br1 mb2 db raise w-100">
 	{{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
 	<h2 class="fpx25 b lh-title mb1 primary stripTitle">{{ .Title }}</h2>
 	

@@ -18,14 +18,14 @@
             </div>
            <div class="not-mobile" style="float: left;vertical-align: middle;text-align: center;line-height: 61px;align-content: center; padding-left: 40px;">
                <span style="font-weight: 600;">Filter by:</span>
-               <a href="{{ if ne .cat "blog" }}/blog{{ if ne .sort "desc" }}byt{{ end }}{{ end }}"><img src="/img/{{ if ne .cat "blog" }}not{{ end }}selected-radio.svg" alt="Autovend" style="vertical-align: middle;"> <span>All Articles</span></a>
-               <a href="{{ if ne .cat "Advice" }}/Advice{{ if ne .sort "desc" }}byt{{ end }}{{ end }}"><img src="/img/{{ if ne .cat "Advice" }}not{{ end }}selected-radio.svg" alt="Autovend" style="vertical-align: middle;"> <span>Advice</span></a>
-               <!--a href="{{ if ne .cat "Buying" }}/buying{{ if ne .sort "desc" }}byt{{ end }}{{ end }}"><img src="/img/{{ if ne .cat "Buying" }}not{{ end }}selected-radio.svg" alt="Autovend" style="vertical-align: middle;"> <span>Buying</span></a -->
-               <a href="{{ if ne .cat "Selling" }}/selling{{ if ne .sort "desc" }}byt{{ end }}{{ end }}"><img src="/img/{{ if ne .cat "Selling" }}not{{ end }}selected-radio.svg" alt="Autovend" style="vertical-align: middle;"> <span>Selling</span></a></div>
+               <a href="javascript:openLink('{{ if ne .cat "blog" }}/blog{{ if ne .sort "desc" }}byt{{ end }}{{ end }}', 'Filter', 'All Articles')"><img src="/img/{{ if ne .cat "blog" }}not{{ end }}selected-radio.svg" alt="Autovend" style="vertical-align: middle;"> <span>All Articles</span></a>
+               <a href="javascript:openLink('{{ if ne .cat "Advice" }}/Advice{{ if ne .sort "desc" }}byt{{ end }}{{ end }}', 'Filter', 'Advice')"><img src="/img/{{ if ne .cat "Advice" }}not{{ end }}selected-radio.svg" alt="Autovend" style="vertical-align: middle;"> <span>Advice</span></a>
+               <!--a href="javascript:openLink('{{ if ne .cat "Buying" }}/buying{{ if ne .sort "desc" }}byt{{ end }}{{ end }}', 'Filter', 'Buying')"><img src="/img/{{ if ne .cat "Buying" }}not{{ end }}selected-radio.svg" alt="Autovend" style="vertical-align: middle;"> <span>Buying</span></a -->
+               <a href="javascript:openLink('{{ if ne .cat "Selling" }}/selling{{ if ne .sort "desc" }}byt{{ end }}{{ end }}', 'Filter', 'Selling')"><img src="/img/{{ if ne .cat "Selling" }}not{{ end }}selected-radio.svg" alt="Autovend" style="vertical-align: middle;"> <span>Selling</span></a></div>
            <div class="not-mobile" style="float: right;vertical-align: middle;text-align: center;line-height: 61px;align-content: center; padding-right: 40px;">
                <span style="font-weight: 600;">Sort by:</span>
-               <a href="/{{ .cat }}"><img src="/img/{{ if ne .sort "desc" }}not{{ end }}selected-radio.svg" alt="Autovend" style="vertical-align: middle;"> <span>Recent</span></a>
-               <a href="/{{ .cat }}byt"><img src="/img/{{ if ne .sort "asc" }}not{{ end }}selected-radio.svg" alt="Autovend" style="vertical-align: middle;"> <span>Oldest</span></a>
+               <a href="javascript:openLink('/{{ .cat }}', 'Sort', 'Recent')"><img src="/img/{{ if ne .sort "desc" }}not{{ end }}selected-radio.svg" alt="Autovend" style="vertical-align: middle;"> <span>Recent</span></a>
+               <a href="javascript:openLink('/{{ .cat }}byt', 'Sort', 'Oldest')"><img src="/img/{{ if ne .sort "asc" }}not{{ end }}selected-radio.svg" alt="Autovend" style="vertical-align: middle;"> <span>Oldest</span></a>
             </div>
         </div>
      </div>

@@ -14,10 +14,10 @@
 </div>
 
 {{ if .Paginator.HasPrev }}
-<a class="prev page-numbers" href="{{ .Paginator.Prev.URL }}">Previous</a>
+<a class="prev page-numbers" href="javascript:openLink('{{ .Paginator.Prev.URL }}', 'clicked', 'Previous posts')">Previous</a>
 {{ end }}
 {{ if .Paginator.HasNext }}
-<a class="next page-numbers" href="{{ .Paginator.Next.URL }}">Next</a>
+<a class="next page-numbers" href="javascript:openLink('{{ .Paginator.Next.URL }}', 'clicked', 'Next Posts')">Next</a>
 {{ end }}
 
 {{ partial "footer" . }}
