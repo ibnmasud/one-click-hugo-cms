@@ -21,3 +21,14 @@ Dealers have tools they use to determine what a vehicle might be worth as a resa
 Autovend has partnered with one of Canada's leading car auction houses to offer car sellers the ability to list their car at a dealer auction. Our trained staff will guide you through the necessary steps, and help you get your car inspected, listed and sold in no time.
 
 After registering your car with Autovend, we'll provide an analysis of what it might be worth, both to a dealer and on the private sale market. Armed with that information, you can begin the auction sale process using our simple [step-by-step guide](https://www.autovend.ca/howtosell#auction). Before you know it, you'll have a cheque in your hand instead of a car in your driveway.
+
+Here's how it works:
+
+1. Register your vehicle with Autovend.ca
+2. We'll prepare some data for you, so you can take the next steps well-informed
+3. Download and complete auction house consignment form, including setting a minimum price (reserve price)
+4. Work with us to schedule an inspection from the auction house
+5. The auction house will put your car up for auction. If you get a bid above your reserve price, you've sold your car! Otherwise, we can negotiate with dealer buyers to see what we can get you.
+6. When a sale price is agreed, we'll help you schedule a time for the buyer to pick up the car
+7. Once the car is out of your hands, you can cancel your insurance and cash the cheque!
+
