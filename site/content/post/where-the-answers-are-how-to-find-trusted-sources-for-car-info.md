@@ -14,10 +14,11 @@ description: >-
 
 #### Trustable Dealers
 
-* [DealerRater Reviews](https://www.dealerrater.ca/reviews/)
-* [Yelp Car Dealer Reviews (Toronto)](https://www.yelp.ca/c/toronto/car_dealers)
+* [DealerRater reviews](https://www.dealerrater.ca/reviews/)
+* [Yelp car dealer reviews (Toronto)](https://www.yelp.ca/c/toronto/car_dealers)
 * [Dealers with reviews on Kijiji](https://www.kijiji.ca/b-cars-trucks/canada/c174l0?dealerReviews=true)
 
 #### Check with Other Shoppers
 
-* [Red Flag Deals Automotive Forum](http://forums.redflagdeals.com/automotive-f40/)
+* [Red Flag Deals automotive forum](http://forums.redflagdeals.com/automotive-f40/)
+* [Autos.ca car buyer forum](https://www.autos.ca/forum/index.php)
